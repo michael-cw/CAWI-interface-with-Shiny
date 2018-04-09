@@ -17,7 +17,7 @@ Its main functions are the following:
 ## Restrictions/Requirements:
 * If you want to use the application without modifications in the code, then use this questionnaire:      https://designer.mysurvey.solutions/questionnaire/public/6d45e18f218b4468b726d88d55c39ee2
 * This shiny app, works with a WEBID variable (which needs to be provided to the questionniare). The rest of your questionnaire can be modified as you wish.
-* You need to use your own email server for this (if you are not bound to a company server, gmail works quite well, depending on the size of your sample.
+* You need to use your own email server for this (if you are not bound to a company server, gmail works quite well, depending on the size of your sample).
 
 ## Further information on Survey Solutions
 http://support.mysurvey.solutions/
