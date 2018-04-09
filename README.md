@@ -1,5 +1,5 @@
 # Computer Assisted Web Interview (CAWI) interface for Survey Solutions with R's Shiny library
-A web-interview interface for Survey Solutions, all programmed in shiny. If you want to use this as is, then you need to use the questionnaire from th link bellow. 
+A web-interview interface for Survey Solutions, all programmed in shiny. If you want to use this as is, then you need to use the questionnaire from the link bellow. 
 
 ## Description
 
