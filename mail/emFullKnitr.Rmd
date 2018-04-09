@@ -1,0 +1,47 @@
+```{r setup, include=FALSE}
+######################################
+# This document MUST use Knitr for Email
+# -->The position of the logo can only be achieved by using 
+#    html table (see below), the css image argument 
+#    alone seems not work in OUTLOOK!!
+######################################
+
+knitr::opts_chunk$set(echo = FALSE)
+
+
+```
+
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+    <tr>
+        <td align="center" valign="top">
+              <img src="logo.png" width="20%">
+        </td>
+    </tr>
+</table>
+# powered by Survey Solutions
+
+
+
+
+```{r, echo=F, comment=NULL, results="asis"}
+cat(textElement$emText1, sep="\n")
+```
+
+```{r, echo=F, comment=NULL, results="asis"}
+cat(textElement$link)
+```
+
+
+```{r, echo=F, comment=NULL, results="asis"}
+cat(textElement$emText2)
+```
+
+
+```{r, echo=F, comment=NULL, results="asis"}
+cat(textElement$idcode)
+```
+
+
+```{r, echo=F, comment=NULL, results="asis"}
+cat(textElement$emText3)
+```

@@ -1,0 +1,42 @@
+---
+title: ""
+author: ""
+date: ""
+output: html_document
+css: style.css
+self_contained: false
+
+
+---
+<img src="logo.png" style="display: block;margin: auto;width: 20%;" />
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+link<-paste0('<center><a class="c18" href="https://xxx.mysurvey.solutions/WebInterview/', 00 ,
+               '/Start">https://xxx.mysurvey.solutions/WebInterview/',00,
+               '/Start</a><br><br></center>')
+```
+
+
+#powered by Survey Solutions
+
+
+```{r, echo=F, comment=NULL, results="asis"}
+cat(input$emText1, sep="\n")
+```
+
+
+`r link`
+
+
+```{r, echo=F, comment=NULL, results="asis"}
+cat(input$emText2)
+```
+
+
+### XXXXX
+
+```{r, echo=F, comment=NULL, results="asis"}
+cat(input$emText3)
+```

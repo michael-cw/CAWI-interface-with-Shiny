@@ -1,0 +1,60 @@
+---
+title: ""
+author: ""
+date: ""
+
+output: 
+    html_document:
+        self_contained: false
+        highlight: null
+        theme: null
+        mathjax: null
+        css: style.css
+---
+<img src="logo.png" style="display:block;class='center';margin: auto;width: 20%;" />
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+#css: style.css
+#<img src="logo.png" style="display: block;margin: auto;width: 20%;" />
+#
+#
+#
+```
+
+
+
+  
+# नेपाल सरकार
+# राष्ट्रिय पुनर्निर्माण प्राधिकरण
+
+# बहुपक्षिय सर्भे सम्बन्धमा
+
+
+
+
+
+
+```{r, echo=F, comment=NULL, results="asis"}
+cat(textElement$emText1, sep="\n")
+```
+
+```{r, echo=F, comment=NULL, results="asis"}
+cat(textElement$link)
+```
+
+
+```{r, echo=F, comment=NULL, results="asis"}
+cat(textElement$emText2)
+```
+
+
+```{r, echo=F, comment=NULL, results="asis"}
+cat(textElement$idcode)
+```
+
+
+```{r, echo=F, comment=NULL, results="asis"}
+cat(textElement$emText3)
+```
