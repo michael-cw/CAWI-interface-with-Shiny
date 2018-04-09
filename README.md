@@ -9,12 +9,15 @@ already comprehensive standard interface.
 Its main functions are the following:
 
 * Select the questionnaire from the ones available on your SuSo server.
-      * if you want to use the application without modifications in the code, then use this questionnaire:      https://designer.mysurvey.solutions/questionnaire/public/6d45e18f218b4468b726d88d55c39ee2
-      * in this shiny app, it works with a WEBID variable (which needs to be provided to the questionniare). The rest of your     questionnaire can be modified as you wish.
 * Upload your sampling frame, and also receive power and samplel size calculation.
 * Create email and the assignment in one go.
-      + You need to use your own server for this.
 * Finally you can manage the frames/samples and also send out reminders.
+
+
+## Restrictions/Requirements:
+* If you want to use the application without modifications in the code, then use this questionnaire:      https://designer.mysurvey.solutions/questionnaire/public/6d45e18f218b4468b726d88d55c39ee2
+* This shiny app, works with a WEBID variable (which needs to be provided to the questionniare). The rest of your questionnaire can be modified as you wish.
+* You need to use your own email server for this (if you are not bound to a company server, gmail works quite well, depending on the size of your sample.
 
 
 
