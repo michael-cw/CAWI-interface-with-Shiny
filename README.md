@@ -1,6 +1,5 @@
 # CAWI-interface-with-Shiny
-A web-interview interface for Survey Solutions, all programmed in shiny. If you want to use this as is, then you need to use the questionnaire from this link.
-
+A web-interview interface for Survey Solutions, all programmed in shiny. If you want to use this as is, then you need to use the questionnaire from th link bellow. 
 
 ## Description
 
@@ -9,10 +8,14 @@ already comprehensive standard interface.
 
 Its main functions are the following:
 
-* Select the questionnaire from the ones available on your SuSo server
-** if you want to use the application without modifications in the code, then use this questionnaire: https://designer.mysurvey.solutions/questionnaire/details/57bce558bd8c466e870fc2cc828507a7/chapter/a404e5d57e00379098f2a530a6f442f6/group/a404e5d57e00379098f2a530a6f442f6
-** in the shiny app shared in this repository, it works with a self created WEBID variable. The resto of your questionnaire can be modified
-* Create email and the assignment in one go
-** You need to use an smtp server for this
+* Select the questionnaire from the ones available on your SuSo server.
++ if you want to use the application without modifications in the code, then use this questionnaire: https://designer.mysurvey.solutions/questionnaire/public/6d45e18f218b4468b726d88d55c39ee2
++ in this shiny app, it works with a WEBID variable (which needs to be provided to the questionniare). The rest of your questionnaire can be modified as you wish.
+* Upload your sampling frame, and also receive power and samplel size calculation.
+* Create email and the assignment in one go.
++ You need to use your own server for this.
+* Finally you can manage the frames/samples and also send out reminders.
+
+
 
 
